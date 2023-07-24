@@ -29,6 +29,7 @@
     "epic-spinners": "^1.1.0",
     "eslint-config-standard": "^16.0.3",
     "eslint-loader": "^4.0.2",
+    "eslint-plugin-import": "^2.27.5",
     "eslint-webpack-plugin": "^3.2.0",
     "fast-xml-parser": "^3.21.1",
     "file-saver": "^2.0.5",

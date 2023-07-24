@@ -53,8 +53,7 @@ import { DataflashDataExtractor } from '../tools/dataflashDataExtractor'
 import { MavlinkDataExtractor } from '../tools/mavlinkDataExtractor'
 import 'cesium/Build/Cesium/Widgets/widgets.css'
 
-Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI2MmM0MDgzZC00OGVkLTRjZ' +
-    'TItOWI2MS1jMGVhYTM2MmMzODYiLCJpZCI6MjczNywiaWF0IjoxNjYyMTI4MjkxfQ.fPqhawtYLhwyZirKCi8fEjPEIn1CjYqETvA0bYYhWRA'
+Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI3YmJlMzAyYy1hZTY4LTQ4OTUtYTIxMS02NTBlYzc1MDcxNTAiLCJpZCI6MTQ0MjAsInNjb3BlcyI6WyJhc3IiLCJnYyJdLCJpYXQiOjE1NjU0NzE5Mzl9.j9eQVA5txZG-lRmcUBEwgzRuAWzd0fPxgf5LmM_xNLU'
 
 function getMinTime (data) {
     // returns the minimum time in the array. Used to define the time range

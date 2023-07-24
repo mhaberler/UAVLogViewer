@@ -1,8 +1,8 @@
 diff --git a/node_modules/plotly.js/src/plots/plots.js b/node_modules/plotly.js/src/plots/plots.js
-index cda76cf..a4051ef 100644
+index 2feb453..d0948ac 100644
 --- a/node_modules/plotly.js/src/plots/plots.js
 +++ b/node_modules/plotly.js/src/plots/plots.js
-@@ -686,6 +686,30 @@ function getFormatObj(gd, formatKeys) {
+@@ -687,6 +687,30 @@ function getFormatObj(gd, formatKeys) {
      return formatObj;
  }
  
@@ -33,7 +33,7 @@ index cda76cf..a4051ef 100644
  /**
   * getFormatter: combine the final separators with the locale formatting object
   * we pulled earlier to generate number and time formatters
-@@ -703,17 +727,8 @@ function getFormatter(formatObj, separators) {
+@@ -704,17 +728,8 @@ function getFormatter(formatObj, separators) {
      formatObj.thousands = separators.charAt(1);
  
      return {
