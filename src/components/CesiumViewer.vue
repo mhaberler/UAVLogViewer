@@ -20,7 +20,7 @@ import {
     createDefaultImageryProviderViewModels,
     ProviderViewModel,
     UrlTemplateImageryProvider,
-    Viewer, createWorldTerrain,
+    Viewer, createWorldTerrainAsync,
     PointPrimitiveCollection,
     IonImageryProvider,
     Entity,
@@ -97,7 +97,7 @@ export default {
             if (this.state.isOnline) {
                 this.viewer = this.createViewer(true)
                 if (this.state.vehicle !== 'boat') {
-                    this.viewer.terrainProvider = createWorldTerrain()
+                    this.viewer.terrainProvider = createWorldTerrainAsync()
                 }
             } else {
                 this.viewer = this.createViewer(false)
